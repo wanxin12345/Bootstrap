@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<!--导航-->
+		<nav class="nav navbar-default" style="padding: 10px;">
+			<div class="container">
+				<div class="navbar-header" style="padding: 10px;">
+					<a href="#" class="navbar-brand" style="margin-top: -30px;padding: 15px;"><img src="images/FD-108.png" width="65px"></a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">首页</a></li>
+					<li><a href="detail.html">导师详情</a></li>
+					<li><a href="others.html">番外</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown">视频中心<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="shuffles-video.html">曳步舞视频</a></li>
+							<li><a href="#">爵士视频</a></li>
+							<li><a href="#">hip-pop视频</a></li>
+							<li class="divider"><a href="#"></a></li>
+							<li><a href="#">其他...</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form action="#" method="post" class="navbar-form navbar-right">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="请输入舞种....."/>
+						<div class="input-group-btn">
+							<button class="btn btn-default">搜索</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</nav>
+		<!--轮播-->
+		<div class="carousel slide" id="dv" style="background: black;margin-top: 0px;">
+			<ul class="carousel-indicators">
+				<li data-slide-to="0" data-target="#dv" class="active"></li>
+				<li data-slide-to="1" data-target="#dv"></li>
+				<li data-slide-to="2" data-target="#dv"></li>
+			</ul>
+			<div class="carousel-inner carousel-img">
+				<div class="item active">
+					<img src="img/1.png"/>
+				</div>
+				<div class="item">
+					<img src="img/3.png"/>
+				</div>
+				<div class="item">
+					<img src="img/2.png"/>
+				</div>
+			</div>
+			<a href="#dv" data-slide="prev" class="carousel-control left"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a href="#dv" data-slide="next" class="carousel-control right"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+		<!---->
+		<div class="tab1">
+			<div class="container">
+				<marquee></marquee>
+				<h2 class="tab-h2">欢迎来到星期舞</h2>
+				<p class="tab-p">这里有你喜欢的曳步舞,爵士,k-pop,Breaking!</p>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<img src="images/4.png"/>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">曳步舞</h4>
+								<p class="text-muted">曳步舞又称墨尔本MelbourneShuffle（Dance），起源于澳大利亚墨尔本。属于一种力量型舞蹈。这是一种拖着脚走的舞步，动作快速有力，音乐强悍有震撼力</p>
+								<p class="text-muted">2017-09-01</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<img src="images/FD8.png"/>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">爵士</h4>
+								<p class="text-muted">爵士乐（Jazz），于19世纪末20世纪初源于美国，诞生于南部港口城市新奥尔良，音乐根基来自布鲁斯（Blues）和拉格泰（Ragtime）。</p>
+								<p class="text-muted">2017-09-01</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<img src="images/FD7.png"/>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">k-pop</h4>
+								<p class="text-muted">韩国流行音乐（英语：Korea-Pop，简称K-POP，朝鲜语：가요）是一音乐种类。指源自韩国的流行音乐，包括有舞曲、现代节奏蓝调、流行电音、嘻哈音乐等。</p>
+								<p class="text-muted">2017-09-01</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<div class="media">
+							<div class="media-left">
+								<img src="images/FD5.png"/>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Breaking</h4>
+								<p class="text-muted">Breaking就是通常由uprock（战斗舞）、footwork（排腿）、spinning moves （大地板）、routine（双人配合）和freeze几个动作所组成。</p>
+								<p class="text-muted">2017-09-01</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="tab2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-md-push-6 col-sm-push-6">
+						<img src="images/3.png" class="getImageHeight">
+					</div>
+					<div class="col-md-6 col-sm-6 col-md-pull-6 col-sm-pull-6 text">
+						<br><br><br><br><br><br>
+						<h3>大同</h3>
+						<p>10月新班  全新开放,我们的老师较近都学习归来
+								全新课程 全新的同学 全新的老师
+								全新的感觉
+								年少不如跳舞 
+								期待你的到来
+								舞动奇迹  就在星期舞
+								
+								
+								所有教室空闲时间都可以过来练舞哦
+								教室全部开放     供星期舞的宝宝的过来练舞
+								勤加练习 方才能进步
+								
+								随着现代网络的发展速度
+								想要成为更多人知道的对象
+								必须要有 一种才能
+								丑没有关系  但是没有一刻变美的心那就是你的不对了</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<img src="images/2.png" class="getImageHeight"/>
+					</div>
+					<div class="col-md-6 col-sm-6 text">
+						<br><br><br><br><br><br>
+						<h3>太原</h3>
+						<p>10月新班  全新开放
+							我们的老师较近都学习归来
+							全新课程 全新的同学 全新的老师
+							全新的感觉
+							年少不如跳舞 
+							期待你的到来
+							舞动奇迹  就在星期舞
+							
+							
+							所有教室空闲时间都可以过来练舞哦
+							教室全部开放     供星期舞的宝宝的过来练舞
+							勤加练习 方才能进步
+							
+							随着现代网络的发展速度
+							想要成为更多人知道的对象
+							必须要有 一种才能
+							丑没有关系  但是没有一刻变美的心那就是你的不对了</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<footer>
+			<div class="container">
+				<p>制作人:号仔仔</p>
+				<p>联系地址:山西大同大学</p>
+				<p>联系方式:1806563975(QQ)</p>
+			</div>
+		</footer>
+
+           
+	
+	</body>
+	<style type="text/css">
+		body{
+			width: 100%;
+			height: 100%;
+		}
+		.item img{
+			margin: auto;
+			
+		}
+		.tab-h2{
+			font-size: 25px;
+			text-align: center;
+			text-spacing: 2px;
+			color: #0059b2;
+		}
+		.tab-p{
+			font-size: 15px;
+			text-align: center;
+			text-spacing: 2px;
+			color: #999;
+		}
+		.tab1{
+			margin: 20px 0;
+		}
+		.media .media-heading{
+			margin: 10px 0px 20px 0px;
+		}
+		.media{
+			padding-top: 20px;
+		}
+		.tab1 img{
+			width:200px;
+		}
+		.tab2{
+			background-color: #eee;
+			padding:60px 20px;
+			text-align: center;
+		}
+		.tab2 img,.tab3 img{
+			width:50%;
+		}
+		.tab3{
+			padding:40px 0px;
+			text-align: center;
+		}
+		footer{
+			background: #CCC;
+			text-align: center;
+			padding: 20px;
+		}
+		/*.row{
+			border: 1px red solid;
+		}*/
+	</style>
+	<script type="text/javascript">
+		$("#dv").carousel({
+			interval:2000
+		});
+		$(function(){
+			var h1=($(".getImageHeight").eq(0).height()-$(".text").eq(0).height())/2;
+			$(".text").eq(0).css({"margin-top":h1+"px"});
+			var h2=($(".getImageHeight").eq(1).height()-$(".text").eq(1).height())/2;
+			$(".text").eq(1).css({"margin-top":h2+"px"});
+			$(window).resize(function(){
+				var h1=($(".getImageHeight").eq(0).height()-$(".text").eq(0).height())/2;
+				$(".text").eq(0).css({"margin-top":h1+"px"});
+				var h2=($(".getImageHeight").eq(1).height()-$(".text").eq(1).height())/2;
+				$(".text").eq(1).css({"margin-top":h2+"px"});
+			});
+		});
+	</script>
+</html>

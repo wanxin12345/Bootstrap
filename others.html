@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<body data-spy="scroll" data-target="#mySpy">
+		<!--导航-->
+		<!--<nav class="navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header" style="padding: 10px;">
+					<a href="#" class="navbar-brand" style="padding-top: 0px;">
+						<img src="images/FD-108.png"width="60px">
+						
+					</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collapse">
+					<yl class="nav navbar-nav navbar-right">
+						<li><a href="bootstrap.html">旅游</a></li>
+						<li><a href="bootstrap1.html">小吃</a></li>
+						<li><a href="bootstrap2.html">社会</a></li>
+					</yl>
+				</div>
+			</div>
+		</nav>-->
+		<nav class="nav navbar-default" style="padding: 10px;">
+			<div class="container">
+				<div class="navbar-header" style="padding: 10px;">
+					<a href="index.html" class="navbar-brand" style="margin-top: -30px;padding: 15px;"><img src="images/FD-108.png" width="65px"></a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="detail.html">导师详情</a></li>
+					<li class="active"><a href="others.html">番外</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown">视频中心<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="shuffles-video.html">曳步舞视频</a></li>
+							<li><a href="#">爵士视频</a></li>
+							<li><a href="#">hip-pop视频</a></li>
+							<li class="divider"><a href="#"></a></li>
+							<li><a href="#">其他...</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form action="#" method="post" class="navbar-form navbar-right">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="请输入舞种....."/>
+						<div class="input-group-btn">
+							<button class="btn btn-default">搜索</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</nav>
+		<!--巨幕-->
+		<div class="container">
+			<div class="jumbotron" style="height: 150px;background: black;color: white;">
+				<h2>主流舞种-<span style="font-size: 20px;">聚焦山西顶级舞蹈于一体</span></h2>
+				
+			</div>
+			<div class="row">
+				<div class="col-xs-3" id="mySpy">
+					<ul class="nav nav-pills nav-stacked" id="myAffix">
+						<li class="active"><a href="#shuihu">曳步舞</a></li>
+						<li><a href="#hongloumeng">爵士</a></li>
+						<li><a href="#sanguoyanyi">Hip-pop</a></li>
+						<li><a href="#xiyouji">Breaking</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-9">
+					<h2 id="shuihu">曳步舞</h2>
+					<p style="line-height: 4.5;">
+						曳步舞风格:<br>
+					1：【Aus】以Hardstyle为主要使用音乐，动作快速飘逸，激情富有活力。比较经典的形象是穿着荧光裤的跳法，AUS里面还有一些不同的细分，主要特色因人而异，因此不做下一步细分。AUS和MAS是国际公认的两种shuffle风格大类。<br>
+					2：【Mas】mas就是马来西亚Malaysia Shuffle ，巴西完全是学习马来人的，动作狂野豪迈，注重全身性的协调拉伸。和AUS的跳法有很大的区别，当shuffle进入中国一段时间后，国内人喜欢把AUS叫做小步，MAS叫做大步，那是非常粗浅的叫法，但不得不承认在当时很多人并不了解shuffle的情况并使用这种称呼。<br>
+					3：【Cali】由MAS转变的一种新跳法，动作和MAS相比，更加干净利落，顿挫感更强，比较流行的跳法。<br>
+					4：【Rocker】最早的rocker,也叫做old school，属于AUS里面一种特立的跳法，动作细致，有一种收敛的舞感<br>
+					5：【Electro】在AUS的基础中融合了C-walk和HipHop里的步伐，看起来轻松写意，非常休闲，欣赏度更高。<br>
+					6：【硬派（Hardstyle）】介乎于AUS和MAS之间，国内叫法，来源于一些俄罗斯舞者的风格并加以改造所形成的一种国内独有的跳法，动作简单粗暴，适合快节奏音乐，缺点是也只能跳快的。<br>
+					7：【RUS】RUS风格来源于俄罗斯，由T1M、TK、等人独立创新的一种舞蹈风格，动作霸气奔放，很有艺术感。<br>
+					8：【T1M】T1M是俄罗斯的一名曳步舞者，在2011年自己独立开创的一种全新舞蹈风格，并以他命名，称T1M风格 T1M风格动作奔放，要求腿部力量要大，上身协调性高，但是动作华丽奔放，在中国受到许多曳步舞者的好评哦！</p>
+					<h2 id="hongloumeng">爵士</h2>
+					<p style="line-height: 4.5;">《  爵士舞（Jazz Dance）是非洲舞蹈的延伸，但是流行于美国。爵士舞是充满动感的多元化节奏型舞蹈，舞步揉合著刚与柔的特性。爵士舞节奏本身比较强劲、是充满动感、灵活、和富趣味的肢体活动，动作的本质是一种自由而纯朴的表现，直接把内心的感受表达出来，舞蹈的动作及音乐极富节奏感，经常练习可达到身体放松及运动的效果。爵士舞可以表达表演者的热情奔放、充满青春跃动感受，以心灵及身体去感受，将舞蹈化为艺术表现出来，也是一种发泄和表达自己情绪的好方法。<br>
+						爵士舞主要是动作和旋律方面的表演，主要目的是为了娱乐别人也娱乐自己，可带给自己与别人一段美好的时光，这也是为什么它的表现一点都不虚饰，舞蹈时所散发出愉悦的气氛和那种快乐的精神非常具感染力。虽然说必须具有非常好的技巧才能成为一位成功的爵士舞者，但是几乎每个人都能掌握它的基础舞步，而且爵士舞的表演空间很广，个人的色彩和独特的风格才是舞动时最令人注目的地方。
+					</p>
+					<h2 id="sanguoyanyi">Hip-pop</h2>
+					<p style="line-height: 4.5;">Hip-hop它包含者各种类型的街舞,包括LOCKING(锁舞).popping(机械舞).WAVE(电流)以及MC HAMMER及巴比布朗时期的律动.只是在NEW SCHOOL hip-hop中看不到breaking DANCE(地板舞)的影子.就像前面提到的,它融合了各式的街舞型态,或许我们可以说它是一种集大成的舞蹈.然而现在的NEW SCHOOL DANCE包含的范畴又更广了 不仅加入许多种舞蹈融合其中,如popin',BOOGIE(布吉) hip-hop它包含者各种类型的街舞,包括LOCKING(锁舞).popping(机械舞).WAVE(电流)以及MC HAMMER及巴比布朗时期的律动.只是在NEW SCHOOL hip-hop中看不到breaking DANCE(地板舞)的影子.就像前面提到的,它融合了各式的街舞型态,或许我们可以说它是一种集大成的舞蹈.然而现在的NEW SCHOOL DANCE包含的范畴又更广了 不仅加入许多种舞蹈融合其中,如popin',BOOGIE(布吉) 取材范围也更广了!国外有些人认为"NEW SCHOOL的动作跟90年代的风车,Headspin来比较的话 显而简单许多" 但NEW SCHOOL的动作也是需要技巧的这就跟霹雳舞中的排腿(footwork)是相近的观念 虽然随性,但却也包含颇多技巧在其中的道理是一样的 然而OlD SCHOOL与NEW SCHOOL孰优?我们无法去真正的作个区分或比较.但是不知甚么时候又会有更新风格的街舞出现,到时....我们现在所流行的NEW SCHOOL,又要变成历史.又要变成另一种的OlD SCHOOL了.NEW SCHOOL孰优?我们无法去真正的作个区分或比较.但是不知甚么时候又会有更新风格的街舞出现,到时....我们现在所流行的NEW SCHOOL,又要变成历史.又要变成另一种的OlD SCHOOL了.</p>
+					<h2 id="xiyouji">Breaking</h2>
+					<p style="line-height: 4.5;">作为Hiphop文化中的代表性舞蹈，Breaking主要由TopRock、UpRock、Footwork、Powermoves、Freeze等几类不同的舞蹈方式所组成。Breaking最初发明于纽约的Bronx区，当时许多DJ带着唱盘机和喇叭在街头广泛举行各种音乐派对并形成风潮，逐渐越来越多的人开始习惯于在派对音乐中没有歌词的间奏部分跳舞，于是众多DJ中一个名为Kool Herc的佼佼者发明了将两张唱盘的间奏部分拼接起来以获得更长的跳舞时间的方式，并由此产生了Break Beat这种音乐形式。而在这种间奏时间里跳舞的人就被称之为间奏男孩Break Boy，即B Boy，而B Boy所跳的舞蹈便被称之为B Boying，并在之后的商业化宣传中被称为Breaking并通行至今。<br>
+						Breaking的大致路线分Style和PowerMove这分别是Old School，我相信大家都问过一个问题：哪个更重要？对这个问题，众说纷云。最后只能说两个同样重要，然而大多数Bboy的认同这说法结果产生了后者，在Style里加上了Move、PowerMove(StyleMove)，在PowerMove里面加上了Combo(PowerMoveCombo)等...的就是New School。<br>
+							Style主要的元素分为三部份：Toprock、Footwork、Freeze。 三者结合就成为基本的一个Style套路。当然，有基本的就绝对有更深层的套路，例如：在Toprock、Footwork、Freeze之间还可以加入Combo、Move、甚至是PowerMove等。
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<footer>
+			<div class="container">
+				<p>制作人:号仔仔</p>
+				<p>联系地址:山西大同大学</p>
+				<p>联系方式:1806563975</p>
+			</div>
+		</footer>
+	</body>
+	<style type="text/css">
+		footer{
+			background: #CCC;
+			text-align: center;
+			padding: 20px;
+		}
+		.jumbotron{
+			color: #ccc;
+			margin: 20px 0 0 0;
+			background-color: black;
+		}
+		.jumbotron h1{
+			font-size: 26px;
+		}
+		.jumbotron p{
+			font-size: 16px;
+		}
+		ul.nav-pills{
+			width:150px;
+		}
+		ul.nav-pills.affix{
+			top:250px; 
+		}
+	</style>
+	<script type="text/javascript">
+		$("#myAffix").affix({
+			offset:{
+				top:0
+			}
+		});
+	</script>
+	
+</html>
